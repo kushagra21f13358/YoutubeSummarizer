@@ -1,0 +1,4 @@
+Flask
+transformers
+torch  # or tensorflow, depending on the model you choose
+requests
