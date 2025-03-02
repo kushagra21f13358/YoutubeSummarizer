@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Load the summarization model
 summarizer = pipeline("summarization")
-
+ 
 @app.route('/summarize', methods=['GET'])
 def summarize():
     video_id = request.args.get('videoId')
